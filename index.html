@@ -3898,6 +3898,19 @@
                 --framer-text-transform: none
             }
         }
+       /* панель редактора */
+    #__framer-editorbar,
+    #__framer-editorbar-container,
+    iframe[id="__framer-editorbar"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      width: 0 !important;
+      height: 0 !important;
+      z-index: -9999 !important;
+    }
+        
     </style>
 
 
@@ -6542,3 +6555,4 @@
 </body>
 
 </html>
+
